@@ -3,10 +3,12 @@ var express = require('express'),
     customer = require('./routes/customer');
 
 var app = express();
-app.use(express.static(__dirname +'/public'));
 
 //app.set('title',"CRM Application");
 app.set('title',"CRM Application - Development");
+app.set('view engine','jade');
+app.set('views', __dirname + '/views');
+app.use(express.static(__dirname +'/public'));
 
 app.get('/', home.index);
 app.get('/customer', customer.index);
