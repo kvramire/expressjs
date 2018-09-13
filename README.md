@@ -13,7 +13,12 @@ Install express
 > node index.js
 > nodemon index.js
 
-Express
+Express - basics
 ==================
 > separate routes implementation into multiple controllers
 > passing params through url
+
+Express configurations
+==========================
+> NODE_ENV=production node index
+>
