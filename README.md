@@ -12,3 +12,8 @@ Install express
 > npm install nodemon  
 > node index.js
 > nodemon index.js
+
+Express
+==================
+> separate routes implementation into multiple controllers
+> passing params through url
